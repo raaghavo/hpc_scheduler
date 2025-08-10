@@ -1,0 +1,50 @@
+{
+  "cluster": {
+    "now": 0,
+    "nodes": {}
+  },
+  "jobs": {
+    "51e422c4": {
+      "name": "etl-small",
+      "minutes": 20,
+      "cpus": 4,
+      "gpus": 0,
+      "priority": 10,
+      "id": "51e422c4",
+      "state": "PENDING",
+      "remaining": 20,
+      "assigned_node": null,
+      "submit_time": 0,
+      "start_time": null,
+      "end_time": null
+    },
+    "17488de1": {
+      "name": "train-a",
+      "minutes": 90,
+      "cpus": 8,
+      "gpus": 1,
+      "priority": 50,
+      "id": "17488de1",
+      "state": "PENDING",
+      "remaining": 90,
+      "assigned_node": null,
+      "submit_time": 0,
+      "start_time": null,
+      "end_time": null
+    },
+    "c4932a93": {
+      "name": "inference",
+      "minutes": 15,
+      "cpus": 2,
+      "gpus": 0,
+      "priority": 80,
+      "id": "c4932a93",
+      "state": "PENDING",
+      "remaining": 15,
+      "assigned_node": null,
+      "submit_time": 0,
+      "start_time": null,
+      "end_time": null
+    }
+  }
+}

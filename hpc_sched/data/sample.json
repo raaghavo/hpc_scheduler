@@ -1,0 +1,5 @@
+[
+    {"name": "etl-small", "minutes": 20, "cpus": 4, "gpus": 0, "priority": 10},
+    {"name": "train-a", "minutes": 90, "cpus": 8, "gpus": 1, "priority": 50},
+    {"name": "inference", "minutes": 15, "cpus": 2, "gpus": 0, "priority": 80}
+]
